@@ -1,0 +1,83 @@
+body{
+	font-family: sans-serif;
+	background: #f2a77a;
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 600;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.table-zebra-striping {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table-zebra-striping th {
+	background: #8CAAD4;
+	color: #FFFFFF;
+	padding: 1em;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.table-zebra-striping td {
+	border-bottom: 1px solid #ddd;
+	padding: 1em;
+}
+
+/* EVEN */
+
+.table-zebra-striping tr:nth-child(even) {
+	background: #F5F5F5;
+}
+
+/* ODD */
+
+.table-zebra-striping tr:nth-child(odd) {
+	background: #D5DDE8;
+}
